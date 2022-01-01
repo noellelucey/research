@@ -1,0 +1,15 @@
+name: "dummy"
+title: "My Website"
+base_url: https://noellelucey.github.io/
+repository_url: https://github.com/noellelucey/research/
+description: |
+  My Website
+output_dir: "_site"
+exclude: ["_site", "public", "README.html", "README.md"]
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article
