@@ -1,0 +1,85 @@
+---
+title: "Research Portal"
+description: |
+  Short personal bio and research overview, with links to my lab notebook, past and current research projects - all which include data and code to reproduce the experimental findings. This is a work in progress. 
+site: distill::distill_website
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, eval = TRUE)
+# echo=true, visible code, eval=true, with output
+# remove(list = ls())
+```
+
+
+> Hit the *Hide Code* button to hide the R code.
+
+<aside>
+
+```{r codefolder_ssu, echo=FALSE, results='asis', eval=TRUE}
+codefolder::generic(init = "show", query = "pre.sourceCode",
+  style = "position: absolute; right: 14%; z-index: 200")
+```
+
+</aside>
+
+# A bit about me
+
+```{r, echo=FALSE, fig.cap="A decorator crab decorating itself with a big sponge, found in a mangrove root system near Bocas del Toro, Panama. Thanks Carolina Cesar for the photo!", out.width ="200px",fig.width = 3.5, fig.height = 2.5}
+knitr::include_graphics("/Users/nlucey/openlab/dummy/ilovemyjob.jpg")
+```
+I am a marine biologist and am currently working as a postdoctoral research fellow at the Smithsonian Tropical Research Institute. The majority of both my field and lab work is done at the Bocas Research Station in Bocas del Toro, Panama.
+
+I developed a fascination for marine biology as a kid and stuck with it. I received a BS in Marine Science and Biology from the University of Miami, USA, and then went on to get a Master's in Marine Affairs and Policy from the Rosenstiel School of Marine and Atmospheric Science and the Marine Policy Center at Woods Hole Oceanographic Institution. From there, I pursued a doctoral degree in Marine Ecosystem Health and Conservation at the University of Plymouth, UK and University of Pavia, Italy through an Erasmus Mundus Doctoral Fellowship which promotes the international exchange of ideas. 
+
+*CV link coming soon*
+
+# Research Interests
+I am an organismal marine biologist with a focus on animal physiology. My research investigates how global change is impacting marine life - tropical marine life in particular. I often use laboratory manipulations with natural field experiments, as well as elements from the disciplines of physiology, ecology and physical oceanography, together, to advance our understanding of how marine animals can survive climate stress. 
+
+*Keywords:* ecophysiology, ocean deoxygenation, warming, multiple generations, biogeography, modern extinctions, phenotypic plasticity, climate change, marine policy, climate resilience, tropical ecosystems, marine invertebrates
+
+
+# Current Projects
+*lab notebook link*
+
+## 1. Tropical Biogeography
+> Deciphering *how* tropical marine biogeography is changing
+
+Climate warming erodes tropical reef habitat through frequency and intensity of episodic hypoxia
+
+Climate warming threatens marine life by increasing metabolic oxygen demand while decreasing oxygen availability. Tropical species living in warm, low oxygen environments may be most at risk, but their tolerances and exposures to these stressors remain poorly documented. We evaluated habitat restrictions for two brittle star species from Caribbean coral reefs by integrating field observations, laboratory experiments and ecophysiological modelling. The absence of one species from the warmest reefs results from restriction of vital activity during episodic low oxygen extremes. We find the frequency and intensity of these events significantly increase with warming, which will progressively exclude ever more hypoxia-tolerant species – even if average oxygen remains constant. A warming-driven increase in frequency or intensity of low oxygen extremes could similarly accelerate habitat loss across other marine ecosystems.
+
+- Collaborators: Curtis Deutsch, Princeton and Piero Calosi, University of Quebec
+*Future directions:* Predicting Extremes - heat, oxygen and metabolic waves impact on marine habitability across marine ecosystems
+
+## 2. Phenotypic Plasticity
+> Rules of plasticity and adaptation in the tropics 
+
+Rising seawater temperatures combined with rapidly emergent coastal deoxygenation are expected to detrimentally impact many marine organisms. Already, the increasing magnitude and frequency of these anthropogenic perturbations have been directly linked to local extinctions. Understanding if and how long-term persistence of species in these environments can be achieved through evolutionary pathways is an understudied and pertinent field of research –with the potential to improve biodiversity predictions and focus coastal management plans. Here we investigated how within-generation plasticity, transgenerational plasticity, and local adaptation can influence long-term persistence in deoxygenated and warming coastal habitats through life histories adjustments. We use replicated populations of Caribbean ostracod species (Skogsbernia lerneri) from three sites that form an oxy-thermal gradient with mild, medium and severe low-O2 and warming. 
+
+## 3. Deoxygenation Ecology
+> How does coastal deoxygenation destabilize marine communities?
+
+Climate change is disproportionately impacting coastal marine ecosystems through complex interactive multiple stressors. Microbes are without a doubt important in these coastal systems, yet the microbial ecology of many marine systems is still poorly understood. Our research aims to address pressing questions regarding which microbial assemblages are correlated to broad-scale ecosystem shifts in coastal habitats. We measured environmental oxygen, temperature, and pH weekly over the course of a year at four shallow sites (~20 m) along a natural ~15 km gradient in a Caribbean Bay. In addition to environmental parameters, we collected weekly sediment samples and determined the abundance and diversity of both the macrofauna and microbial communities (16S rRNA) throughout the year. At sites with severe deoxygenation (compared to more normoxic sites), we find a strong relationship between reduced macrofaunal abundance and diversity, as well as significant increases in microbial community instability. Using an integrative time-series approach we identify specific oxygen thresholds that appear to underpin changes in both macro- and micro- benthic diversity. Through space and time oxygen stress plays an extreme role in community destabilization.
+
+- Project ollaborators: Jarrod J Scott, STRI
+- [Project website](https://tropical-repo.github.io/trepo-summary.html)
+
+## 4. Symbiosis with Oxygen
+> Corals are living precariously close to their oxygen limits - at night.
+
+There is a growing realization that ocean deoxygenation is a major global problem that is hurting marine life and that this deoxygenation is directly related to rising seawater temperature. It is also well known that coral reefs are dying at a rapid pace. But we have no direct measure of what coral limits are to deoxygenation under warming. Here we measure the oxygen limits of corals at along a 10C temperature range. We find seven common Caribbean coral species all actively regulate their oxygen consumption to a point: their oxygen limits arenear the daily minimum environmental oxygen levels measured from the reef habitats they live in at night. This strongly indicates oxygen has a much bigger role in coral reef survival than previously thought, and that climate-mediated ocean deoxygenation should be considered a top research priority.
+
+- Collaborators: Andrew Altieri, Rachel Collin, Julie Meyer, funded by NSF*
+
+# Past Projects
+ 
+- Tropical ecosystem collapse due to acute hypoxia on a Caribbean coral reef 
+[Project website](https://hypocolypse.github.io/)
+- Coral predators exhibit remarkable reversible plasticity: [Press](https://ecologyandevolution.blog/2020/01/20/coping-without-oxygen-under-water)
+- Some climate stressors are more important than others for short-term survival on the reef: pH, temperature and oxygen interactions  [Press](https://stri.si.edu/story/one-two-punch?fbclid=IwAR2_90Fy6rvuMRm7uKe8I_kMce_ncxQjZj_tvq2pyg2NHZN2pwrCTt6K_vo)
+- Brooding is better reproductive strategy in an acidic ocean  [Press](https://www.plymouth.ac.uk/news/to-brood-or-not-to-brood-are-marine-organisms-evolving-to-protect-their-offspring-in-response-to-ocean-acidification)
+
+*Big thanks to the support and tutorial developed by Jarrod J Scott aka MetaCrobe that made this website possible*
