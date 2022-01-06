@@ -1,0 +1,40 @@
+---
+name: Noelle
+surname: Lucey
+position: "Postdoctoral Scholar"
+address: "Bocas del Toro Research Station, Smithsonian Tropical Research Institute"
+phone: +1 22 3333 4444
+www: https://github.com/noellelucey/research/
+email: "noelle.lucey@gmail.com"
+twitter: noellelucey
+github: nlucey20
+headcolor: "blue"
+date: "`r format(Sys.time(), '%B %Y')`"
+output: 
+  vitae::markdowncv:
+    page_total: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Research Goals
+
+
+# Education
+
+```{r}
+
+```
+
+# Professional 
+
+```{r}
+
+```
+
+# Publications
+
+

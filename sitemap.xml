@@ -2,10 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
     <loc>https://noellelucey.github.io/about.html</loc>
-    <lastmod>2022-01-01T12:55:43-05:00</lastmod>
+    <lastmod>2022-01-05T13:00:56-05:00</lastmod>
   </url>
   <url>
     <loc>https://noellelucey.github.io/</loc>
-    <lastmod>2022-01-03T15:42:50-05:00</lastmod>
+    <lastmod>2022-01-06T13:56:59-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://noellelucey.github.io/pubs.html</loc>
+    <lastmod>2022-01-05T14:58:39-05:00</lastmod>
   </url>
 </urlset>
